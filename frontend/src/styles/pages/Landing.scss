@@ -1,6 +1,7 @@
 .landing {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  //divides the top section into 2 for adding image on the right side
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
 
   .left {
     padding: 100px;
@@ -28,8 +29,8 @@
     }
   }
 
-  .right {
-    display: flex;
-    justify-content: right;
-  }
+  // .right {
+  //   display: flex;
+  //   justify-content: right;
+  // }
 }

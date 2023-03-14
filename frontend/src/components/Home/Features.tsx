@@ -7,7 +7,7 @@ const Features = () => {
     <div className="features-wrapper">
       <div className="title-large">Amazing Features</div>
       <div className="title-small">
-        lorem ipsum dosa is posa and gosa is the best thing i can come up with
+        Features provided by blockchain in securing your vote and making you anonymous.
       </div>
 
       <div className="mobile-wrapper">

@@ -9,8 +9,8 @@ const Landing = () => {
           <img src="logo.png" />
         </div>
 
-        <div className="title-large">Blockchain Based</div>
-        <div className="title-large">Voting System</div>
+        <div className="title-large title-green">E-Vote</div>
+        <div className="title-large title-green">Blockchain Based Voting System</div>
         <div className="title-small">the future of voting</div>
 
         <div className="button-wrapper">
@@ -24,9 +24,10 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="right">
+      {/* Adds image on landing page (top right) */}
+      {/* <div className="right">
         <img src="vote.gif" />
-      </div>
+      </div> */}
     </div>
   );
 };
