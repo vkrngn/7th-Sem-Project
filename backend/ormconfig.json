@@ -1,0 +1,16 @@
+{
+  "type": "mysql",
+  "host": "127.0.0.1",
+  "port": 3306,
+  "username": "bpmce",
+  "password": "Vicky@123",
+  "database": "bpmceDB",
+  "synchronize": false,
+  "logging": true,
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "entities": ["src/entity/**/*.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"]
+}
